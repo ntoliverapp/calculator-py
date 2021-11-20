@@ -28,7 +28,7 @@ txtDisplay = Entry(cal,font=('arial', 20, 'bold'), textvariable = text_input, bd
 
 #==========================
 btn7=Button(cal,padx=16, bd=8, fg='black', font=('arial', 20, 'bold'), 
-            text='8',bg='#8fb996', command=lambda:btn_click(7)).grid(row=1,column=0)
+            text='7',bg='#8fb996', command=lambda:btn_click(7)).grid(row=1,column=0)
 
 btn8=Button(cal,padx=16, bd=8, fg='black', font=('arial', 20, 'bold'), 
             text='8',bg='#8fb996', command=lambda:btn_click(8)).grid(row=1,column=1)
@@ -77,6 +77,10 @@ addition=Button(cal,padx=16, bd=8, fg='black', font=('arial', 20, 'bold'),
 
 
 cal.mainloop()
+
+
+
+
 
 
 
